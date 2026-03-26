@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purple</title>
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        .carousel-item {
+            height: 70vh;
+            width: 110vh;
+          margin-left: 290px;
+        
+         
+        }
+
+        .carousel-item img {
+            height: 100%;
+            object-fit: cover;
+        }
+
+        section {
+            padding: 40px 20px;
+        }
+    </style>
+</head>
+<body>
+
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg" style="background-color: #edd6ff;">
+  <div class="container">
+    <a class="navbar-brand" href="#">Ma li</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+      ☰
+    </button>
+
+    <div class="collapse navbar-collapse" id="menu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#section1">SECTION 1</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#section2">SECTION 2</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2"></button>
+  </div>
+
+  <!-- Imágenes -->
+  <div class="carousel-inner">
+
+    <div class="carousel-item active">
+      <img src="img-1.png" class="d-block w-100">
+    </div>
+
+    <div class="carousel-item">
+      <img src="img-2.jpg" class="d-block w-100">
+    </div>
+
+    <div class="carousel-item">
+      <img src="img-3.jpg" class="d-block w-100">
+    </div>
+
+  </div>
+
+  <!-- Botones -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+
+</div>
+
+<!-- SECTION 1 -->
+<section id="section1">
+    <div class="container">
+        <h2>Section 1</h2>
+        <p>Pruple is the best color.</p>
+    </div>
+</section>
+
+<!-- SECTION 2 -->
+<section id="section2" style="background-color: #f5f5f5;">
+    <div class="container">
+        <h2>Section 2</h2>
+     <p>It's my girlfriend's favorite color, so that why it's definitely the best one.</p>
+    </div>
+</section>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
